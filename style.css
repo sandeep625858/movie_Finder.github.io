@@ -1,0 +1,46 @@
+body{
+    background-image:url('https://media.istockphoto.com/photos/film-reels-on-black-background-movie-video-and-cinema-prodaction-and-picture-id1336937059?b=1&k=20&m=1336937059&s=170667a&w=0&h=Lg5T5VAhrTRhHmFrWp8cTWRjZrSm-nPkeTpVU2dsZoE=');
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+  .card-text{
+    font-size:25px;
+    color:blueviolet;
+  }
+  #Values{
+    text-align:center;
+    background-color:black;
+    border:4px solid red;
+    padding:10px;
+    visibility:hidden;
+  }
+  img{
+    width:50%;
+    height:20rem;
+  }
+  .details{
+    margin-left: 10%;
+    margin-right: auto;
+  }
+  h1{
+    text-align:left;
+    color:white;
+  }
+  .style{
+    font-size:2rem;
+    color:white;
+  }
+  #genre,#actor,#director,#imdb,#language,#title,#year,#type{
+    color:white;
+    font-size: 2rem;
+  }
+  #plot{
+    color:white;
+    font-size: 15px;
+  }
+  .failed{
+    color:red;
+    font-size: 2rem;
+    text-align:center;
+    visibility:hidden;
+  }

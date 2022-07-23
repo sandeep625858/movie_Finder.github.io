@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="card text-center " style="width: 100%; border: 2px solid red;">
+          <div class="card-body bg-success">
+            <p class="card-text">Enter the name of the movie/series:- <input type="text" id="movie">&nbsp;<button class='btn btn-primary' id="btn">Search</button></p>
+        </div>
+      </div>
+        <h1 class="failed" id="fail">Movie not Found!Try Searching for another movie!</h1>
+        <div id="Values">
+            <img src="" id="img">
+            <table class="details" id="success">
+                <thead>
+                    <tr>
+                        <th><h1 class="style">Title:</h1></th>
+                        <th><h1 id="title">A</h1></th>
+                    </tr>
+                    <tr>
+                        <th><h1 class="style">Year:</h1></th>
+                        <th><h1 id="year">A</h1></th>
+                    </tr>
+                    <tr>
+                        <th><h1 class="style">Type:</h1></th>
+                        <th><h1 id="type">A</h1></th>
+                    </tr>
+                    <tr>
+                        <th><h1 class="style">Genre:</h1></th>
+                        <th><h1 id="genre">A</h1></th>
+                    </tr>
+                    <tr>
+                        <th><h1 class="style">Actors:</h1></th>
+                        <th><h1 id="actor">A</h1></th>
+                    </tr>
+                    <tr>
+                        <th><h1 class="style">Director:</h1></th>
+                        <th><h1 id="director">A</h1></th>
+                    </tr>
+                    <tr>
+                        <th><h1 class="style">Language:</h1></th>
+                        <th><h1 id="language">A</h1></th>
+                    </tr>
+                    <tr>
+                        <th><h1 class="style">ImdbRating:</h1></th>
+                        <th><h1 id="imdb">A</h1></th>
+                    </tr>
+                    <tr>
+                        <th><h1 class="style">Plot:</h1></th>
+                        <th><p id="plot">A</p></th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
